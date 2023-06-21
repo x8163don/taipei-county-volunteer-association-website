@@ -4,48 +4,18 @@
       <a href="./index.html"><img src="../../../assets/header/logo.png"/></a>
     </div>
     <nav>
-      <div class="navitem navitem-arrow">
-        <a href="#">關於我們</a>
-        <ul class="navitem_list bg-red">
-          <li><a href="/about/introduce">介紹與參訪預約</a></li>
-          <li><a href="/about/booking">會議室租借</a></li>
-          <li><a href="/about/traffic">交通資訊</a></li>
-        </ul>
-      </div>
-
-      <div class="navitem navitem-arrow">
-        <a href="#">活動報報</a>
-        <ul class="navitem_secondlist">
-          <li><a href="/activity/exhibition">主題展覽</a></li>
-          <li><a href="/activity">講座與課程</a></li>
-          <li><a href="/trips">菁桐女路</a></li>
-        </ul>
-      </div>
-
-      <a class="navitem" href="/gender">性別平等專區</a>
-      <a class="navitem" href="/power">女力加油站</a>
+      <a class="navitem" href="/about">關於我們</a>
+      <a class="navitem" href="/activity">最新活動</a>
+      <a class="navitem" href="/gender">服務概況</a>
       <a class="navitem" href="/volunteer">志工服務</a>
+      <a class="navitem" href="/volunteer">聯絡我們</a>
+      <a class="navitem" href="/volunteer">相關連結</a>
     </nav>
   </header>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      links: [
-        { to: "/about", showText: "關於我們" },
-        { to: "/news", showText: "最新消息" },
-        { to: "/activity", showText: "活動報報" },
-        { to: "/growing", showText: "成長小屋" },
-        { to: "/power", showText: "女力加油站" },
-        { to: "/videos", showText: "性平影音" },
-        { to: "/angel", showText: "微光天使" },
-        { to: "/exhibitions", showText: "線上展覽" }
-      ]
-    };
-  }
-};
+export default {};
 </script>
 
 <style scoped>
@@ -105,16 +75,6 @@ nav {
 
 .navitem_list:hover {
   display: block;
-}
-
-.navitem:first-child::before {
-  content: "";
-  margin: 0 8px;
-  display: inline-block;
-  border-top: 6px solid transparent;
-  border-left: 6px solid #2d2d2d;
-  border-bottom: 6px solid transparent;
-  border-right: 6px solid transparent;
 }
 
 .navitem:hover::before {

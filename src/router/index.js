@@ -3,7 +3,6 @@ import VueRouter from "vue-router";
 
 const PostDetail = () => import("../modules/common/components/PostDetail");
 
-// v2
 const Home = () => import("../modules/home/views/Home");
 const Introduce = () => import("../modules/about/views/Introduce");
 const Booking = () => import("../modules/about/views/Booking");

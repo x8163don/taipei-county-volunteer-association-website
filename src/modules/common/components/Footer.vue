@@ -1,34 +1,32 @@
 <template>
   <footer>
     <div class="info">
-      <p>新北市婦女服務中心</p>
+      <p>社團法人新北市志願服務協會</p>
       <br />
       地址<br />
-      新北市板橋區區運路111號3樓<br />
+      220新北市板橋區大智街71巷5弄1號<br />
       <br />
       服務時間<br />
-      週一至週五08:30-17:30 (週六、週日暨國定假日休館)<br />
+      週一至週五09:00-18:00 (週六、週日暨國定假日休館)<br />
       <br />
       聯絡資訊<br />
-      電話：02-8951-9029<br />
-      傳真：02-8951-9239<br />
-      電子信箱：ntwsc9029@gmail.com<br />
+      電話：(02)8969-7736<br />
+      傳真：(02)8969-7740<br />
+      電子信箱：f2725082@ms65.hinet.net<br />
       <br />
-      指導單位：新北市政府<br />
-      主辦單位：新北市婦女服務中心(社團法人新北市志願服務協會承辦)<br />
+      立案許可機關字號：北府社團換字第1011040783號<br />
+      郵政劃撥帳號：19444971  戶名：社團法人新北市志願服務協會<br />
     </div>
     <div class="webmap">
       <ul>
         <p>網站地圖</p>
         <br />
-        <li><a href="/about/introduce">介紹與參訪預約</a></li>
-        <li><a href="/about/booking">會議室租借</a></li>
-        <li><a href="/about/traffic">交通資訊</a></li>
-        <li><a href="/activity/exhibition">主題展覽</a></li>
-        <li><a href="/activity">講座與課程</a></li>
-        <li><a href="/gender">性別平等專區</a></li>
-        <li><a href="/power">女力加油站</a></li>
-        <li><a href="/volunteer">志工服務</a></li>
+        <li><a href="/about/introduce">最新消息</a></li>
+        <li><a href="/about/booking">關於我們</a></li>
+        <li><a href="/about/traffic">服務概況</a></li>
+        <li><a href="/activity/exhibition">志工服務</a></li>
+        <li><a href="/activity">聯絡我們</a></li>
+        <li><a href="/gender">相關連結</a></li>
       </ul>
       <div class="img_icon">
         <a href="https://www.facebook.com/NTWSC/posts/1387567328310264"
