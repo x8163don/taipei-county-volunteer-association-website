@@ -2,7 +2,7 @@ import axios from "axios";
 
 const wordpressApi = axios.create({
   baseURL:
-    "https://public-api.wordpress.com/rest/v1.1/sites/ntccouncilofwomen.wordpress.com",
+    "https://public-api.wordpress.com/rest/v1.1/sites/tcvawebsite.wordpress.com",
   timeout: 3000
 });
 
