@@ -27,11 +27,11 @@ const routes = [
     name: "ServiceIntro",
     component: ServiceIntro
   },
-  {
-    path: "/volunteer",
-    name: "Volunteer",
-    component: Volunteer
-  },
+  // {
+  //   path: "/volunteer",
+  //   name: "Volunteer",
+  //   component: Volunteer
+  // },
   {
     path: "/contact",
     name: "Contact",
