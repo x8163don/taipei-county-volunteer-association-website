@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="activity_title">活動消息</h1>
+    <h1 class="activity_title">最新消息</h1>
     <div class="activity">
       <div
         class="activity_post"
@@ -42,7 +42,7 @@ export default {
     }
   },
   async mounted() {
-    const activities = await getPosts({ category: "中心活動", number: 3 });
+    const activities = await getPosts({ category: "最新消息", number: 4 });
     this.recent = this.recent.concat(activities.data.posts);
   },
   data() {
@@ -52,8 +52,7 @@ export default {
   },
   methods: {
     getImageByIdx(idx) {
-      const images = ["salon", "womencollege", "tool"];
-      return require(`../../../assets/home/${images[idx % 3]}.png`);
+      return require(`../../../assets/home/dot${[idx % 4]}.png`);
     }
   }
 };
@@ -75,17 +74,6 @@ h1 {
 .activity {
   display: flex;
   justify-content: space-between;
-}
-
-.activity_title::before {
-  content: "";
-  width: 60px;
-  height: 20px;
-  background: #F6A096;
-  position: absolute;
-  left: 50px;
-  top: 4px;
-  z-index: -1;
 }
 
 .activity_title::after {

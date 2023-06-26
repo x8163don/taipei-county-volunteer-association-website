@@ -64,17 +64,6 @@ export default {
   margin-bottom: 20px;
 }
 
-.news_title::before {
-  content: "";
-  width: 60px;
-  height: 20px;
-  background: #F6A096;
-  position: absolute;
-  left: -20px;
-  top: 4px;
-  z-index: -1;
-}
-
 .news_title::after {
   content: "";
   width: 700px;

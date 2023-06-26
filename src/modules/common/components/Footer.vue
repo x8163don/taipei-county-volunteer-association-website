@@ -21,20 +21,16 @@
       <ul>
         <p>網站地圖</p>
         <br />
-        <li><a href="/about/introduce">最新消息</a></li>
-        <li><a href="/about/booking">關於我們</a></li>
-        <li><a href="/about/traffic">服務概況</a></li>
-        <li><a href="/activity/exhibition">志工服務</a></li>
-        <li><a href="/activity">聯絡我們</a></li>
-        <li><a href="/gender">相關連結</a></li>
+        <li><a href="/activity">最新消息</a></li>
+        <li><a href="/about">關於我們</a></li>
+        <li><a href="/services">服務概況</a></li>
+        <li><a href="/volunteer">志工服務</a></li>
+        <li><a href="/contact">聯絡我們</a></li>
+        <li><a href="/other">相關連結</a></li>
       </ul>
       <div class="img_icon">
-        <a href="https://www.facebook.com/NTWSC/posts/1387567328310264"
+        <a href="https://www.facebook.com/profile.php?id=100088832875957"
           ><img src="../../../assets/footer/icon_fb.png"
-        /></a>
-        <a
-          href="https://www.youtube.com/channel/UCMzQZyh84q_60M9Hu3YJAqg/videos"
-          ><img src="../../../assets/footer/icon_youtube.png"
         /></a>
       </div>
     </div>
@@ -56,7 +52,7 @@ footer {
 
 .info {
   width: 50%;
-  background-color: #FFEEED;
+  background-color: #F0F0F0;
   padding: 40px;
   font-size: 14px;
 }
@@ -68,7 +64,7 @@ footer {
 
 .webmap {
   width: 50%;
-  background-color: #FFEEED;
+  background-color: #F0F0F0;
   padding: 40px;
   font-size: 14px;
 }

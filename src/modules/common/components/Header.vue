@@ -5,11 +5,11 @@
     </div>
     <nav>
       <a class="navitem" href="/about">關於我們</a>
-      <a class="navitem" href="/activity">最新活動</a>
-      <a class="navitem" href="/gender">服務概況</a>
+      <a class="navitem" href="/activity">最新消息</a>
+      <a class="navitem" href="/services">服務概況</a>
       <a class="navitem" href="/volunteer">志工服務</a>
-      <a class="navitem" href="/volunteer">聯絡我們</a>
-      <a class="navitem" href="/volunteer">相關連結</a>
+      <a class="navitem" href="/contact">聯絡我們</a>
+      <a class="navitem" href="/other">相關連結</a>
     </nav>
   </header>
 </template>
@@ -35,6 +35,8 @@ header {
 
 .logo {
   align-self: flex-end;
+  width: 366px;
+  height: 66px;
 }
 
 nav {
@@ -127,6 +129,6 @@ nav {
 
 .navitem_list > li:hover,
 .navitem_secondlist > li:hover {
-  background-color: #ffeeed;
+  background-color: #F0F0F0;
 }
 </style>

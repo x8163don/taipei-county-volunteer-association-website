@@ -5,14 +5,9 @@ const PostDetail = () => import("../modules/common/components/PostDetail");
 
 const Home = () => import("../modules/home/views/Home");
 const Introduce = () => import("../modules/about/views/Introduce");
-const Booking = () => import("../modules/about/views/Booking");
-const Traffic = () => import("../modules/about/views/Traffic");
-const Exhibitions = () => import("../modules/activity/views/Exhibition");
-const Activities = () => import("../modules/activity/views/Activities");
-const GenderEquality = () => import("../modules/gender/views/GenderEquality");
-const WomanPower = () => import("../modules/power/views/WomanPower");
+const ServiceIntro = ()=> import("../modules/services/view/Introduce");
+const Contact = ()=> import("../modules/contact/view/Contact");
 const Volunteer = () => import("../modules/volunteer/views/Volunteer");
-const Trips = () => import("../modules/trips/views/Trips");
 
 Vue.use(VueRouter);
 
@@ -23,29 +18,14 @@ const routes = [
     component: Home
   },
   {
-    path: "/about/introduce",
+    path: "/about",
     name: "Introduce",
     component: Introduce
   },
   {
-    path: "/about/booking",
-    name: "Booking",
-    component: Booking
-  },
-  {
-    path: "/about/traffic",
-    name: "Traffic",
-    component: Traffic
-  },
-  {
-    path: "/activity/exhibition",
-    name: "Exhibitions",
-    component: Exhibitions
-  },
-  {
-    path: "/activity",
-    name: "Activities",
-    component: Activities
+    path: "/services",
+    name: "ServiceIntro",
+    component: ServiceIntro
   },
   {
     path: "/volunteer",
@@ -53,24 +33,14 @@ const routes = [
     component: Volunteer
   },
   {
-    path: "/gender",
-    name: "GenderEquality",
-    component: GenderEquality
-  },
-  {
-    path: "/power",
-    name: "WomanPower",
-    component: WomanPower
+    path: "/contact",
+    name: "Contact",
+    component: Contact
   },
   {
     path: "/post/:id",
     name: "PostDetail",
     component: PostDetail
-  },
-  {
-    path: "/trips/",
-    name: "Trips",
-    component: Trips
   },
   {
     path: "*",
