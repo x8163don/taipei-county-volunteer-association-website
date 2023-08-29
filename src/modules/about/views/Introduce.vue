@@ -53,7 +53,7 @@ h1 {
 .breadcrumb_list > li::before {
   content: "/";
   font-size: 18px;
-  color: #f0f0f0;
+  color: #ffe4ca;
   margin: 0 10px;
 }
 
@@ -62,7 +62,7 @@ h1 {
 }
 
 .guid_content {
-  border: 8px solid #f0f0f0;
+  border: 8px solid #ffe4ca;
   background: white;
   border-radius: 40px;
   width: 90%;

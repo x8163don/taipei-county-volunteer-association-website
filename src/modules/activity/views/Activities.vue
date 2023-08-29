@@ -129,7 +129,7 @@ export default {
   font-size: 16px;
   color: #ff4b2d;
   font-weight: bold;
-  background: #f0f0f0;
+  background: #ffe4ca;
 }
 
 .salon_content_new > a {
@@ -160,7 +160,7 @@ export default {
   font-size: 16px;
   color: #ff4b2d;
   font-weight: bold;
-  background: #f0f0f0;
+  background: #ffe4ca;
 }
 
 .class_content_new a {

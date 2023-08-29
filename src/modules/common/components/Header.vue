@@ -129,6 +129,6 @@ nav {
 
 .navitem_list > li:hover,
 .navitem_secondlist > li:hover {
-  background-color: #f0f0f0;
+  background-color: #ffe4ca;
 }
 </style>

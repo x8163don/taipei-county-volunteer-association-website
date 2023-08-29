@@ -52,7 +52,7 @@ footer {
 
 .info {
   width: 50%;
-  background-color: #f0f0f0;
+  background-color: #ffe4ca;
   padding: 40px;
   font-size: 14px;
 }
@@ -64,7 +64,7 @@ footer {
 
 .webmap {
   width: 50%;
-  background-color: #f0f0f0;
+  background-color: #ffe4ca;
   padding: 40px;
   font-size: 14px;
 }
