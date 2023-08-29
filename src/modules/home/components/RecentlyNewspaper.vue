@@ -7,17 +7,21 @@
           <li v-for="item in recentlyNews" :key="item.url">
             <a :href="item.url" target="_blank">
               <pre>{{ item.startDate }} {{ item.name }}</pre>
-            </a
-            >
+            </a>
           </li>
         </ul>
       </div>
       <div class="fb_container">
         <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100091648120015&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=396438565601073"
-            width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true"
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100091648120015&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=396438565601073"
+          width="500"
+          height="500"
+          style="border:none;overflow:hidden"
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></iframe>
       </div>
     </div>
   </div>
@@ -37,13 +41,14 @@ export default {
         {
           startDate: "2020/12/18",
           name: "新北老人文康車深入偏區趴趴走 長者「哈酒」、「練武功」",
-          url: "https://www.chinatimes.com/realtimenews/20201218006034-260405?chdtv"
+          url:
+            "https://www.chinatimes.com/realtimenews/20201218006034-260405?chdtv"
         },
         {
           startDate: "2018/06/10",
           name: "新北志願服務協會包2萬顆素粽 分送弱勢",
           url: "https://news.ltn.com.tw/news/life/breakingnews/2453708"
-        },
+        }
       ]
     };
   }

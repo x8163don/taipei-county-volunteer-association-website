@@ -3,21 +3,21 @@
     <div class="chart_container">
       <div class="info_container">
         <div class="info_title">
-          <img src="../../../assets/volunteer/raisHhand.png" />志工隊服務理念
+          <img src="../../../assets/volunteer/raisHhand.png"/>志工隊服務理念
         </div>
         <div class="info_content">
-          以服務精神協助中心推動性別平等工作，推動性平相關業務，並發展不同之多元技能志工。<br />
-          <br />
-          本中心加強志工隊志願服務品質，組成青年志工、家庭志工、女性居家水電修繕小組志工等，發展極具特色志願服務團隊。
+          配合政府社會福利政策之推行，結合民間團體力量與社會資源，培育優秀志願服務人員。
+          <br/>
+          促進或協助各志願服務團體的成立，培訓志工幹部，落實志願服務工作，促使志願服務工作全民化，鼓勵「人人做好人，大家做好事」。
         </div>
       </div>
-      <img src="../../../assets/volunteer/chart.png" />
+      <img src="../../../assets/volunteer/chart.png"/>
     </div>
 
     <div class="time_container">
-      <img src="../../../assets/volunteer/serviceTime.png" />
+      <img src="../../../assets/volunteer/serviceTime.png"/>
       <div class="title">
-        志工招幕<img src="../../../assets/volunteer/hand.png" />
+        志工招幕<img src="../../../assets/volunteer/hand.png"/>
       </div>
     </div>
     <div class="service_container">
@@ -35,6 +35,12 @@
 .chart_container,
 .time_container,
 .service_container,
+.medals_container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  margin-top: 150px;
+}
 
 .info_container {
   width: 60%;

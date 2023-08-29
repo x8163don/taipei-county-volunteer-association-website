@@ -1,15 +1,14 @@
 <template>
   <div class="main_container">
     <div class="guid_content">
-      <h1>聯絡我們</h1>
-      <br />
-      <p>會 址：220新北市板橋區大智街71巷5弄1號</p>
-      <p>聯絡電話：(02)8969-7736</p>
-      <p>傳 真：(02)8969-7740</p>
-      <p>電子信箱：f2725082@ms65.hinet.net</p>
-      <br />
-      <p>立案許可機關字號：北府社團換字第1011040783號</p>
-      <p>郵政劃撥帳號：19444971 戶名：社團法人新北市志願服務協會</p>
+      <a href="https://www.facebook.com/groups/1176297966254796/"
+      >新北市志願服務協會 Facebook</a
+      >
+    </div>
+    <div class="guid_content">
+      <a href="https://www.facebook.com/profile.php?id=100090387522993"
+      >行動銀髮 Facebook</a
+      >
     </div>
   </div>
 </template>
@@ -25,7 +24,7 @@ h1 {
 
 .main_container {
   width: 1200px;
-  height: 800px;
+  height: auto;
   margin: 0 auto;
   position: relative;
 }
@@ -58,9 +57,8 @@ h1 {
   background: white;
   border-radius: 40px;
   width: 90%;
+  margin-top: 40px;
   padding: 50px 50px 50px 50px;
-  position: absolute;
-  top: 50px;
   z-index: 1;
 }
 

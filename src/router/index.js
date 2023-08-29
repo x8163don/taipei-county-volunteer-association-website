@@ -5,9 +5,10 @@ const PostDetail = () => import("../modules/common/components/PostDetail");
 
 const Home = () => import("../modules/home/views/Home");
 const Introduce = () => import("../modules/about/views/Introduce");
-const ServiceIntro = ()=> import("../modules/services/view/Introduce");
-const Contact = ()=> import("../modules/contact/view/Contact");
+const ServiceIntro = () => import("../modules/services/view/Introduce");
+const Contact = () => import("../modules/contact/view/Contact");
 const Volunteer = () => import("../modules/volunteer/views/Volunteer");
+const Other = () => import("../modules/other/views/other");
 
 Vue.use(VueRouter);
 
@@ -27,11 +28,16 @@ const routes = [
     name: "ServiceIntro",
     component: ServiceIntro
   },
-  // {
-  //   path: "/volunteer",
-  //   name: "Volunteer",
-  //   component: Volunteer
-  // },
+  {
+    path: "/volunteer",
+    name: "Volunteer",
+    component: Volunteer
+  },
+  {
+    path: "/other",
+    name: "Other",
+    component: Other
+  },
   {
     path: "/contact",
     name: "Contact",

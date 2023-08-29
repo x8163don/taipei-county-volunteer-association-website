@@ -3,23 +3,23 @@
 </template>
 
 <script>
-import ActivityList from "../components/ActivityList"
-import { getPosts } from "../../api"
+import ActivityList from "../components/ActivityList";
+import { getPosts } from "../../api";
 
 export default {
   components: { ActivityList },
   async mounted() {
     await getPosts({
       number: 100,
-      category: "系列活動",
-    }).then((response) => {
-      this.activities = response.data.posts
-    })
+      category: "系列活動"
+    }).then(response => {
+      this.activities = response.data.posts;
+    });
   },
   data() {
     return {
-      activities: [],
-    }
-  },
-}
+      activities: []
+    };
+  }
+};
 </script>

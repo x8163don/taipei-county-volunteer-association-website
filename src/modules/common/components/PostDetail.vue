@@ -3,18 +3,18 @@
 </template>
 
 <script>
-import { getPost } from "../../api"
+import { getPost } from "../../api";
 
 export default {
   async mounted() {
-    await getPost(this.$route.params.id).then((response) => {
-      this.post = response.data
-    })
+    await getPost(this.$route.params.id).then(response => {
+      this.post = response.data;
+    });
   },
   data() {
     return {
-      post: {},
-    }
-  },
-}
+      post: {}
+    };
+  }
+};
 </script>

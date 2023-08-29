@@ -15,7 +15,7 @@
       電子信箱：f2725082@ms65.hinet.net<br />
       <br />
       立案許可機關字號：北府社團換字第1011040783號<br />
-      郵政劃撥帳號：19444971  戶名：社團法人新北市志願服務協會<br />
+      郵政劃撥帳號：19444971 戶名：社團法人新北市志願服務協會<br />
     </div>
     <div class="webmap">
       <ul>
@@ -29,7 +29,7 @@
         <li><a href="/other">相關連結</a></li>
       </ul>
       <div class="img_icon">
-        <a href="https://www.facebook.com/profile.php?id=100088832875957"
+        <a href="https://www.facebook.com/groups/1176297966254796/"
           ><img src="../../../assets/footer/icon_fb.png"
         /></a>
       </div>
@@ -52,7 +52,7 @@ footer {
 
 .info {
   width: 50%;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   padding: 40px;
   font-size: 14px;
 }
@@ -64,7 +64,7 @@ footer {
 
 .webmap {
   width: 50%;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   padding: 40px;
   font-size: 14px;
 }

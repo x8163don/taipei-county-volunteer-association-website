@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import ActivityList from "../components/ActivityList"
-import { getPosts } from "../../api"
-import moment from "moment"
+import ActivityList from "../components/ActivityList";
+import { getPosts } from "../../api";
+import moment from "moment";
 
-const THREE_MONTH_AGO = moment().add("d", -90)
+const THREE_MONTH_AGO = moment().add("d", -90);
 
 export default {
   components: { ActivityList },
@@ -15,15 +15,15 @@ export default {
     await getPosts({
       number: 10,
       category: "活動報報",
-      after: THREE_MONTH_AGO.toISOString(),
-    }).then((response) => {
-      this.activities = response.data.posts
-    })
+      after: THREE_MONTH_AGO.toISOString()
+    }).then(response => {
+      this.activities = response.data.posts;
+    });
   },
   data() {
     return {
-      activities: [],
-    }
-  },
-}
+      activities: []
+    };
+  }
+};
 </script>

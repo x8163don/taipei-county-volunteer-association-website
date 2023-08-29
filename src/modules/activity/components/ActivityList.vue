@@ -31,21 +31,21 @@
 </template>
 
 <script>
-import moment from "moment"
+import moment from "moment";
 
 export default {
   props: {
     activities: {
       type: Array,
       default() {
-        return []
-      },
-    },
+        return [];
+      }
+    }
   },
   filters: {
     localDateTime(isoDate) {
-      return moment(isoDate).format("yyyy-MM-DD HH:mm:ss")
-    },
-  },
-}
+      return moment(isoDate).format("yyyy-MM-DD HH:mm:ss");
+    }
+  }
+};
 </script>
