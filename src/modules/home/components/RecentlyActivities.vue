@@ -52,7 +52,7 @@ export default {
   },
   methods: {
     getImageByIdx(idx) {
-      return require(`../../../assets/home/dot${[idx % 4]}.png`);
+      return require(`../../../assets/home/dot${[(idx % 4)+1]}.png`);
     }
   }
 };
