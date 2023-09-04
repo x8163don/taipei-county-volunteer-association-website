@@ -21,7 +21,7 @@
       <ul>
         <p>網站地圖</p>
         <br />
-        <li><a href="/activity">最新消息</a></li>
+        <li><a href="/news">最新消息</a></li>
         <li><a href="/about">關於我們</a></li>
         <li><a href="/services">服務概況</a></li>
         <li><a href="/volunteer">志工服務</a></li>

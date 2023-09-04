@@ -13,11 +13,12 @@
             {{ item.date | localDateTime }}
           </td>
           <td class="pv3 pr3 bb b--black-20 printer">
-            <a :href="`/news/post/${item.ID}`">{{ item.title }}</a>
+            <a :href="`/post/${item.ID}`">{{ item.title }}</a>
           </td>
         </tr>
       </tbody>
     </table>
+
   </div>
 </template>
 
