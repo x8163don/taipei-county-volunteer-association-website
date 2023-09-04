@@ -17,16 +17,18 @@
     <div class="time_container">
       <img src="../../../assets/volunteer/serviceTime.png"/>
       <div class="title">
-        志工招幕<img src="../../../assets/volunteer/hand.png"/>
+        <a href="https://drive.google.com/file/d/1eDXUVdOChghpaZNN6pcU6EqOtoxCjGhV/view?usp=drive_link">
+          志工招幕<img src="../../../assets/volunteer/hand.png"/>
+        </a>
       </div>
     </div>
     <div class="service_container">
-      <img src="../../../assets/volunteer/left_lineImg.png" />
-      <img src="../../../assets/volunteer/service.png" />
+      <img src="../../../assets/volunteer/left_lineImg.png"/>
+      <img src="../../../assets/volunteer/service.png"/>
     </div>
     <div class="service_container">
-      <img src="../../../assets/volunteer/contact.png" />
-      <img src="../../../assets/volunteer/right_lineImg.png" />
+      <img src="../../../assets/volunteer/contact.png"/>
+      <img src="../../../assets/volunteer/right_lineImg.png"/>
     </div>
   </div>
 </template>
