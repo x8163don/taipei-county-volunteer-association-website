@@ -17,7 +17,7 @@
     <div class="time_container">
       <img src="../../../assets/volunteer/serviceTime.png"/>
       <div class="title">
-        <a href="https://drive.google.com/file/d/1eDXUVdOChghpaZNN6pcU6EqOtoxCjGhV/view?usp=drive_link">
+        <a href="https://drive.google.com/file/d/1eDXUVdOChghpaZNN6pcU6EqOtoxCjGhV/view?usp=sharing">
           志工招幕<img src="../../../assets/volunteer/hand.png"/>
         </a>
       </div>
