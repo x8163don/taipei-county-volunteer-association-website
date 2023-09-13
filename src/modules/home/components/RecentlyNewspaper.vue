@@ -11,18 +11,6 @@
           </li>
         </ul>
       </div>
-      <div class="fb_container">
-        <iframe
-          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100091648120015&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=396438565601073"
-          width="500"
-          height="500"
-          style="border:none;overflow:hidden"
-          scrolling="no"
-          frameborder="0"
-          allowfullscreen="true"
-          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-        ></iframe>
-      </div>
     </div>
   </div>
 </template>
@@ -57,7 +45,6 @@ export default {
 
 <style scoped>
 .social_container {
-  display: flex;
   margin-top: 150px;
   margin-bottom: 100px;
   position: relative;
@@ -71,7 +58,7 @@ export default {
 
 .news_title::after {
   content: "";
-  width: 700px;
+  width: 100%;
   height: 2px;
   background: #a7a7a7;
   position: absolute;
@@ -93,19 +80,5 @@ export default {
 
 .news_inner > li > a:hover {
   color: #ff4b2d;
-}
-
-.news_container {
-  width: 700px;
-}
-
-/* FB粉專 */
-.fb_container {
-  width: 500px;
-}
-
-iframe {
-  display: inline-block;
-  margin-top: 38px;
 }
 </style>
