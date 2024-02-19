@@ -89,16 +89,20 @@ h1 {
 .activity_post {
   margin-top: 40px;
   height: 500px;
-  width: 370px;
+  width: 300px;
   transition: all 0.4s;
   font-size: 0;
 }
 
+.post_img {
+  height: 210px;
+}
+
 .post_container {
-  height: 250px;
+  height: 290px;
   border: 1px solid #a7a7a7;
   border-top: transparent;
-  padding: 30px;
+  padding: 20px;
 }
 
 .activity_post:hover {
@@ -108,14 +112,19 @@ h1 {
 }
 
 .post_date {
+  height: 20px;
   font-size: 16px;
   color: #a7a7a7;
 }
 
 .post_title {
+  height: 20px;
   font-size: 20px;
   font-weight: 400;
   margin: 12px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .post_title > a {
@@ -124,6 +133,10 @@ h1 {
 }
 
 .post_excerpt {
+  height: 180px;
+  display: block;
   font-size: 16px;
+  overflow:hidden;
+  text-overflow: ellipsis;
 }
 </style>
