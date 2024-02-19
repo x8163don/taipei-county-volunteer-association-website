@@ -61,7 +61,6 @@ h1 {
 
 .main_container {
   width: 1200px;
-  height: 1000px;
   margin: 0 auto;
   position: relative;
 }
@@ -90,12 +89,12 @@ h1 {
 }
 
 .guid_content {
+  margin: 0 auto;
   border: 8px solid #ffe4ca;
   background: white;
   border-radius: 40px;
   width: 90%;
   padding: 50px 50px 50px 50px;
-  position: absolute;
   top: 50px;
   z-index: 1;
 }
